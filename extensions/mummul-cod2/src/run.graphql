@@ -1,0 +1,12 @@
+query RunInput {
+  cart {
+    attribute(key: "giftCardLastFour"){
+      value
+    }
+  }
+  paymentMethods {
+    id
+    name
+  }
+}
+
